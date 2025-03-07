@@ -3,7 +3,7 @@ Synapse module that suspends newly registered accounts and joins them to given r
 
 Include in homeserver.yaml with this config:
 
-```
+```yaml
 modules:
   - module: reg_module.RegistrationMonitor
     config:
